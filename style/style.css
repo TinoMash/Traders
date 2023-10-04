@@ -23,14 +23,13 @@ header img{
     width: 50px;
 }
 
-.Wel-Market{
+.Sales{
     display: flex;
     justify-content: center;
-    background-color: aqua;
-    position: fixed;
+    background-color: rgb(0, 0, 0);
     width: 100%;
-    top: 0;
     z-index: 1;
+    color: white;
 }
 
 .Coporate-Container{
@@ -69,8 +68,33 @@ header img{
     font-size: 30px;
     text-shadow: 3px 4px 8px white;
 }
-
-
+.printerImg{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+.SpaceTolate{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+   background: white;
+   margin-left: 36%;
+   border-radius: 30px;
+   
+}
+.cbg{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    opacity: 0.4;
+    border-radius: 30px;
+}
 
 @keyframes LogoAnimation {
     0%{
@@ -254,6 +278,10 @@ header img{
         user-select: none;
         position: relative;
         
+        
+    }
+    .info a{
+        text-decoration: none;
     }
 
     .main-btn:hover{
@@ -770,8 +798,12 @@ header img{
         cursor: pointer;
         user-select: none;
         position: relative;
-        
     }
+    .info a{
+        text-decoration: none;
+       
+    }
+
 
     .main-btn.Bhidden{
         display: none;
@@ -890,4 +922,56 @@ header img{
 .MenuArrow{
     display: none;
 }
+.Coporate-Container ol li{
+    margin: 40px;
+    background-color: rgb(229, 243, 243);
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 3px 7px 6px black;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bolder;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   letter-spacing: 2px;
+   opacity: 0.8;
+}
+.statiobg{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+.printerImg{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+.SpaceTolate{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+   background: white;
+   border-radius: 30px;
+   margin-left: 5px;
+   
+}
+.cbg{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    opacity: 0.4;
+    border-radius: 30px;
+}
+
 }
