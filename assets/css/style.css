@@ -59,7 +59,7 @@ font-family: 'Roboto', sans-serif;
     margin: 0 210px;
     z-index: 1;
     top: -32px;
-    right: -10px;
+    right: -25px;
 }
 .LOGO{
     animation: LogoAnimation 2s linear infinite;
@@ -85,7 +85,7 @@ font-family: 'Roboto', sans-serif;
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:14px;
-	color:#a09e9c;
+	color:#000000;
     text-transform:initial;
     max-width:1920px;
     margin:0 auto;
@@ -104,14 +104,14 @@ a,a:hover,a:active,a:focus {
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
-	color:#343a3f;
+	color:#000000;
     font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
 }
 p {
 	margin: 0;
-	color:#767f86;
+	color:#000000;
 	font-size:14px;
     line-height: 1.8;
     text-transform: initial;
@@ -146,7 +146,7 @@ html,body{height: 100%;}
     text-align: center;
 }
 .section-header h2{
-    color: #505866;
+    color: #000000;
     font-size:24px;
     font-weight: 500;
     margin-bottom: 24px;
@@ -221,7 +221,7 @@ nav.navbar.bootsnav {
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     font-weight: 700;
     padding: 34px 0px;
@@ -308,7 +308,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 
 .welcome-hero-txt h2 {
     font-size: 48px;
-    color: #fff;
+    color: #000000;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.4px;
@@ -316,7 +316,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 }
 .welcome-hero-txt p {
     font-size: 18px;
-    color: #fcfcfc;
+    color: #000000;
     margin-top: 25px;
 }
 
@@ -554,7 +554,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     background: cadetblue;
     text-align:  center;
     margin-left:  5px;
-    color:  white;
+    color:  rgb(0, 0, 0);
 }
 .single-explore-image-icon-box ul li:hover i{color: #267dff;}
 
@@ -569,7 +569,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 
 .explore-rating-price,.explore-rating-price a {
     font-size: 12px;
-    color: #ffffff;
+    color: #000000;
     text-transform: capitalize;
     font-weight: 400;
     margin: 15px 0 20px;
@@ -580,7 +580,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     width: 32px;
     height: 20px;
     line-height: 20px;
-    color: #fff;
+    color: #000000;
     text-align: center;
     border-radius: 3px;
     font-weight: 500;
@@ -689,7 +689,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     margin-top: 18px;
 }
 .testimonial-comment p{
-    color: #ffffff;
+    color: #000000;
     font-size: 14px;
     font-weight: 300;
 }/* testimonial-comment */
@@ -747,14 +747,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .statistics-content{
     display: flex;
     justify-content: center;
-    color:#fff;
+    color:#000000;
     font-size:60px;
 }
 .statistics-content span {
     margin-left: 5px;
 }
 .single-ststistics-box h3{
-    color:#fff;
+    color:#000000;
     font-size:24px;
     text-transform:capitalize;
     font-weight: 500;
