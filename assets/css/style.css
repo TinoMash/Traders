@@ -304,6 +304,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     background:rgba(65,73,89,.65);
     z-index: -1;
 }
+
+.welcome-hero:hover{
+    background-color: red;
+}
 .welcome-hero-txt { padding-top: 155px;}
 
 .welcome-hero-txt h2 {
@@ -338,6 +342,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     align-items: center;
     width: 50%;
     padding: 0 30px;
+}
+
+.single-welcome-hero-form:hover{
+    background-color: cadetblue;
+    color: white;
 }
 .single-welcome-hero-form:first-child{border-right: 1px solid #edeff1;}
 .single-welcome-hero-form input {
