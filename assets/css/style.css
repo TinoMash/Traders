@@ -325,8 +325,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     display: flex;
     background: cadetblue;
     height: 70px;
+    display: flex;
+    position: relative;
+    align-content: center;
     border-radius: 3px;
-    width: 85%;
+    width: 20%;
 }
 .single-welcome-hero-form {
     position: relative;
